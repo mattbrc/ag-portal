@@ -1,0 +1,49 @@
+body
+{
+  background: #000000;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.header {
+  background: linear-gradient(90deg,#00dbde,#fc00ff);
+  text-align: center;
+  font-size: 48px;
+  font-weight: 800;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bio {
+  text-align: center;
+  color: #ffffff;
+  margin-top: 16px;
+  font-weight: 600;
+}
+
+.waveButton {
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  font-weight: 600;
+  background: linear-gradient(90deg,#00dbde,#fc00ff);
+}
+
+.waveTextBox {
+  margin-top: 16px;
+  text-align: center;
+}
